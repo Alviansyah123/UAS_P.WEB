@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang Belanja</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+
+</head>
+<body>
+  
+<!-- navbar -->
+<nav class="navbar fixed-top navbar navbar-expand-lg navbar-dark bg-dark main-color">
+    <div class="container-fluid">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-brand me-auto" href="index.html">Codes Cafe</a>
+        <ul class="navbar-nav">
+          <li class="nav-item me-5">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link " href="produk.html">Produk</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="promo.html">Promo</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link active"href="#"tabindex="-1" aria-disabled="true"><i class="bi bi-cart4"></i> Keranjang</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--table-->
+<div class="container-fluid py-5">
+    <div class="container">
+        <h2 class="text-center my-5">Keranjang Belanja</h2>
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+                    <th>#</th>
+                    <th>Pesanan</th>
+                    <th>Harga</th>
+                    <th>Jumlah</th>
+                    <th>Total</th>
+                </tr>
+                <tr style="vertical-align: middle;">
+                    <td><a href="image/product/fried-rice.jpg" data-lightbox="Fried Rice" data-title="Fried Rice">
+                        <img src="image/product/thumb/fried-rice.jpg" class="img-thumbnail d-none d-sm-block" width="150px" alt="">
+
+                        <label class="d-block d-sm-none">Fried Rice</label> 
+                         </a>
+                    </td>
+                    <td>Fried Rice</td>
+                    <td>Rp 15.000</td>
+                    <td>2</td>
+                    <td>30.000</td>
+                </tr>
+
+            </tr>
+            <tr style="vertical-align: middle;">
+                <td><a href="image/product/rice-curry.jpg" data-lightbox="Rice Curry" data-title="Rice Cury">
+                    <img src="image/product/thumb/rice-curry.jpg" class="img-thumbnail d-none d-sm-block" width="150px" alt="">
+                    <label class="d-block d-sm-none">Rice Cury</label>
+                     </a>
+                </td>
+                <td>Rice Curry</td>
+                <td>Rp 30.000</td>
+                <td>3</td>
+                <td>90.000</td>
+            </tr>
+
+                </tr>
+                <tr style="vertical-align: middle;">
+                    <td><a href="image/product/brownies.jpg" data-lightbox="Brownies" data-title="Brownies">
+                        <img src="image/product/thumb/brownies.jpg" class="img-thumbnail d-none d-sm-block" width="150px" alt="">
+                        <label class="d-block d-sm-none">Brownies</label>
+                        </a>
+                    </td>
+                    <td>Brownies</td>
+                    <td>Rp 12.000</td>
+                    <td>5</td>
+                    <td>60.000</td>
+                </tr>
+
+            </tr>
+            <tr style="vertical-align: middle;">
+                <td><a href="image/product/mix-vegetable-sald.jpg" data-lightbox="Mix Vegetable Salad" data-title="Mix Vegetable Salad">
+                    <img src="image/product/thumb/mix-vegetable-sald.jpg" class="img-thumbnail d-none d-sm-block" width="150px" alt="">
+                    <label class="d-block d-sm-none">Salad On A Plate</label>
+                    </a>
+                </td>
+                <td>Mix Vegetable Salad</td>
+                <td>Rp 18.000</td>
+                <td>1</td>
+                <td>18.000</td>
+            </tr>
+
+          </tr>
+          <tr style="vertical-align: middle;">
+              <td><a href="image/product/red-syrup-pancake.jpg" data-lightbox="Red Syrup Pancake" data-title="red-syrup-pancake">
+                  <img src="image/product/thumb/red-syrup-pancake.jpg" class="img-thumbnail d-none d-sm-block" width="150px" alt="">
+                  <label class="d-block d-sm-none">coffe</label>
+                  </a>
+              </td>
+              <td>Red Syrup Pancake</td>
+              <td>Rp 15.000</td>
+              <td>4</td>
+              <td>60.000</td>
+          </tr>
+
+                <th colspan="5">Total</th>
+                <Th>Rp 318.000</Th>
+            </table>
+        </div>
+        <button class="btn btn-warning text-light">Check Out</button>
+    </div>
+</div>
+
+
+
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+
+</body>
+</html>
