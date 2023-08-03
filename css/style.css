@@ -6,6 +6,7 @@ html {
 
 body {
     background-color: #ffffff;
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -162,4 +163,23 @@ body {
 
 .container-fluid .container label {
     color: #fff;
+}
+
+
+.text_run {
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
